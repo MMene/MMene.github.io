@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Proyecto Final Arg Programa 4.0</title>
+
+    <script src="ProyecyoFinalEventos.js"></script>
+
+    <link rel="stylesheet" href="Estilos Proyecto Final.css">
+    <link rel="icon" type="imagen/x-icon" href="https://img.icons8.com/ios/256/parse-resume.png">
+
+</head>
+<div class="botonera">
+    <a href="#personal"><img class="boton" src="/MMene.github.io/Img/personal.png" id="pers" onclick="enAmarillo1()" alt="Informacion personal"> </a>
+    <a href="#laboral"><img class="boton" src="/MMene.github.io/Img/laboral.png" id="lab" onclick="enAmarillo2()" alt="Informacion laboral"> </a>
+    <a href="#habilidades"><img class="boton" src="/MMene.github.io/Img/habilidades.png" id="habili" onclick="enAmarillo3()" alt="Habilidades"> </a>
+    <a href="#educacion"><img class="boton" src="/MMene.github.io/Img/estudios.png" id="estud" onclick="enAmarillo4()" alt="Estudios"> </a>
+</div>
+<body>
+    <header>
+    <h1>Aarón Ferguson <img class="alineadoTextoImagenArriba" src="/MMene.github.io/Img/fotoejemplo.jpg"/> </h1>
+    </header>
+    
+    <h2 id = "Desarrollador-web"> Desarrollador WEB</h2>
+    <p id=" descripcion"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt, 
+        nunc non mattis vulputate, ante leo auctor mi, quis lacinia sem mauris ut dui. Vestibulum a dui malesuada 
+        purus volutpat. 
+    </p>
+
+    <div class="caja"  id="personal">
+        <div class="titulo">Información Personal</div>
+        <div class="text">    
+            <ul>
+                <li>Edad: 38</li>
+                <li>Residencia: San Martin</li>
+                <li>Nacimiento: 23/09/85</li>
+                <li>Nacionalidad: Argentina</li>  
+            </ul>
+        </div>
+    </div>
+        
+    <div class="caja" id="laboral">
+        <div class="titulo">Experiencia Laboral</div>
+        <div class="text">    
+            <ul>
+                <li>2005 - 2010 / Pasante en Fabrica Metalurgica </li>
+                <li>2010 - 2013 / Operador de Call Center</li>
+                <li>2013 - 2020 / Programador Full Stack</li>
+                <li>2020 - Act. / CEO Fundation Artificial Tecnhology</li>
+            </ul>
+        </div>
+    </div>
+        
+    <div class="caja" id="habilidades">
+        <div class="titulo">Habilidades</div>
+        <div class="text">    
+            <ul>
+                <li>Microsoft Office</li>
+                <li>Autocad</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Automation Studio</li>
+                <li>Python</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="caja" id="educacion">
+        <div class="titulo">Estudios</div>
+        <div class="text">    
+            <ul>
+                <li>1988 - 2003 / Tecnico Electromecanico / Instituto La Salle <span class = "Finalizado"> Estado: Finalizado</span></li>
+                <li>2003 - 2006 / Tecnicatura en Programacion Informatica / Unsam <span class = "Finalizado"> Estado: Finalizado</span></li>
+                <li>2010 - 2015 / Analista en sistemas / Escuela Da Vinci <span class = "Inconcluso"> Estado: Inconcluso</span></li>
+                <li>2019 - Actualidad / Curso Developer Full Stack / Coderhouse <span class = "EnProgreso"> Estado: En Progreso</span></li>
+            </ul>
+        </div>
+    </div> 
+
+</body>
+<footer>
+    <p id="barra-colores-2"></p>
+  
+    <button id="Contactar" onclick="MostrarTelefono()">Contactar</button>
+    <p id="telefono"></p>
+
+</footer>
+</html>
