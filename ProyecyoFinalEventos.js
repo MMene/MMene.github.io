@@ -36,5 +36,5 @@ function enAmarillo1() {
 
      
     function MostrarTelefono(){
-        document.getElementById("telefono").innerHTML = "011-2885-9655 // elenafernandez@hotmail.com.ar";
+        document.getElementById("telefono").innerHTML = "011-2885-9655 // aaronferguson@hotmail.com";
      }
