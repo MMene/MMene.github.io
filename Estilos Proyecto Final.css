@@ -55,17 +55,17 @@ p{
 .Finalizado{
     color: green;
     margin-left: 15px;
-    background-color: gray;
+    ;
 }
 .Inconcluso{
     color: red;
     margin-left: 15px;
-    background-color: gray;
+;
 }
 .EnProgreso{
     color: yellow;
     margin-left: 15px;
-    background-color: gray;
+    -webkit-text-stroke: #000000 0.25px;
 }
 
 .caja {
